@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="33" passed="32" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-29T10:04:34 IST" name="Default suite" finished-at="2024-11-29T10:06:17 IST" duration-ms="102844">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.MyTestRunner@4e50c791]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-11-29T10:04:34 IST" name="Default test" finished-at="2024-11-29T10:06:17 IST" duration-ms="102844">
+      <class name="testrunner.MyTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:testrunner.MyTestRunner@4e50c791]" started-at="2024-11-29T10:04:34 IST" name="setUpClass" finished-at="2024-11-29T10:04:34 IST" duration-ms="653" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@724e0a77]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.MyTestRunner@4e50c791]" started-at="2024-11-29T10:04:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T10:04:39 IST" duration-ms="4105" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding a product to the shopping cart and verifying on the cart page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Shopping Cart Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.MyTestRunner@4e50c791]" started-at="2024-11-29T10:04:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T10:04:41 IST" duration-ms="2791" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Adding multiple products to the shopping cart and verifying on the cart page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Shopping Cart Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.MyTestRunner@4e50c791]" started-at="2024-11-29T10:04:41 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T10:04:47 IST" duration-ms="5746" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Removing an item from the cart and verifying the cart page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Shopping Cart Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.MyTestRunner@4e50c791]" started-at="2024-11-29T10:04:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T10:04:50 IST" duration-ms="2889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Proceeding to Checkout from the cart page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Shopping Cart Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.MyTestRunner@4e50c791]" started-at="2024-11-29T10:04:50 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T10:04:53 IST" duration-ms="2563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Proceeding to Checkout from the cart page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Shopping Cart Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.MyTestRunner@4e50c791]" started-at="2024-11-29T10:04:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T10:04:55 IST" duration-ms="2597" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Continuing shopping after adding items to the cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Shopping Cart Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.MyTestRunner@4e50c791]" started-at="2024-11-29T10:04:55 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T10:04:58 IST" duration-ms="2576" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Continuing shopping after adding items to the cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Shopping Cart Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.MyTestRunner@4e50c791]" started-at="2024-11-29T10:04:58 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T10:05:02 IST" duration-ms="4136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User fills out the checkout information and completes the checkout"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Checkout Page Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.MyTestRunner@4e50c791]" started-at="2024-11-29T10:05:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T10:05:05 IST" duration-ms="3477" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User fills out the checkout information and completes the checkout"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Checkout Page Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.MyTestRunner@4e50c791]" started-at="2024-11-29T10:05:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T10:05:09 IST" duration-ms="3515" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User fills out the checkout information and completes the checkout"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Checkout Page Functionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.MyTestRunner@4e50c791]" started-at="2024-11-29T10:05:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T10:05:13 IST" duration-ms="3667" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["complete shopping flow from login to order placed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Shopping Cart and Checkout Flow"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.MyTestRunner@4e50c791]" started-at="2024-11-29T10:05:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T10:05:17 IST" duration-ms="4718" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["complete shopping flow from login to order placed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Shopping Cart and Checkout Flow"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.MyTestRunner@4e50c791]" started-at="2024-11-29T10:05:17 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T10:05:21 IST" duration-ms="3756" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["complete shopping flow from login to order placed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Shopping Cart and Checkout Flow"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.MyTestRunner@4e50c791]" started-at="2024-11-29T10:05:21 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T10:05:25 IST" duration-ms="3549" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["complete shopping flow from login to order placed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Shopping Cart and Checkout Flow"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.MyTestRunner@4e50c791]" started-at="2024-11-29T10:05:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T10:05:28 IST" duration-ms="3602" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["complete shopping flow from login to order placed"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Shopping Cart and Checkout Flow"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.MyTestRunner@4e50c791]" started-at="2024-11-29T10:05:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T10:05:31 IST" duration-ms="2498" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check that all items are displayed in the inventory"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Inventory Page Automation of Sauce Labs"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.MyTestRunner@4e50c791]" started-at="2024-11-29T10:05:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T10:05:33 IST" duration-ms="2227" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add item to the cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Inventory Page Automation of Sauce Labs"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.MyTestRunner@4e50c791]" started-at="2024-11-29T10:05:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T10:05:35 IST" duration-ms="2229" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add item to the cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Inventory Page Automation of Sauce Labs"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.MyTestRunner@4e50c791]" started-at="2024-11-29T10:05:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T10:05:37 IST" duration-ms="2272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add item to the cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Inventory Page Automation of Sauce Labs"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.MyTestRunner@4e50c791]" started-at="2024-11-29T10:05:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T10:05:42 IST" duration-ms="4332" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add multiple items to the cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Inventory Page Automation of Sauce Labs"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.MyTestRunner@4e50c791]" started-at="2024-11-29T10:05:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T10:05:44 IST" duration-ms="2277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add multiple items to the cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Inventory Page Automation of Sauce Labs"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.MyTestRunner@4e50c791]" started-at="2024-11-29T10:05:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T10:05:47 IST" duration-ms="3148" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sort products by Name (Z to A)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Inventory Page Automation of Sauce Labs"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.MyTestRunner@4e50c791]" started-at="2024-11-29T10:05:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T10:05:51 IST" duration-ms="3551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sort products by Name (A to Z)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Inventory Page Automation of Sauce Labs"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.MyTestRunner@4e50c791]" started-at="2024-11-29T10:05:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T10:05:53 IST" duration-ms="2511" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sort products by Price (Low to High)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Inventory Page Automation of Sauce Labs"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.MyTestRunner@4e50c791]" started-at="2024-11-29T10:05:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T10:05:56 IST" duration-ms="2410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Sort products by Price (High to Low)"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Inventory Page Automation of Sauce Labs"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.MyTestRunner@4e50c791]" started-at="2024-11-29T10:05:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T10:05:59 IST" duration-ms="3356" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify the Open and Close Menu functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Inventory Page Automation of Sauce Labs"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <button style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; margin: 0px; padding: 0px; border: none; font-size: 0px; background: transparent; color: transparent; outline: none; cursor: pointer;">...</button> is not clickable at point (133, 20). Other element would receive the click: <div class="bm-menu" style="height: 100%; box-sizing: border-box; overflow: auto;">...</div>
+  (Session info: chrome=131.0.6778.86)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0d76b5372c063b76aeba90d891a75b65, clickElement {id=f.AAF9EF162F64E764F0D2A3330FEC78C3.d.8294F93BCC0201019BBE47E3DDD4509F.e.42}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61041}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61041/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0d76b5372c063b76aeba90d891a75b65)] -> xpath: //button[text()='Close Menu']]
+Session ID: 0d76b5372c063b76aeba90d891a75b65]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button style="position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; margin: 0px; padding: 0px; border: none; font-size: 0px; background: transparent; color: transparent; outline: none; cursor: pointer;">...</button> is not clickable at point (133, 20). Other element would receive the click: <div class="bm-menu" style="height: 100%; box-sizing: border-box; overflow: auto;">...</div>
+  (Session info: chrome=131.0.6778.86)
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0d76b5372c063b76aeba90d891a75b65, clickElement {id=f.AAF9EF162F64E764F0D2A3330FEC78C3.d.8294F93BCC0201019BBE47E3DDD4509F.e.42}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 130.0.6723.58 (3a50e012e4c9..., userDataDir: C:\WINDOWS\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61041}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61041/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0d76b5372c063b76aeba90d891a75b65)] -> xpath: //button[text()='Close Menu']]
+Session ID: 0d76b5372c063b76aeba90d891a75b65
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at jdk.proxy2/jdk.proxy2.$Proxy26.click(Unknown Source)
+at pages.ProductPage.closeMenuTab(ProductPage.java:70)
+at stepdefinitions.InventoryStepDefinition.user_clicks_on_close_menu(InventoryStepDefinition.java:92)
+at ✽.User clicks on Close Menu(file:///C:/Users/rajam/eclipse-workspace/SwagLabs_BDDCucumber/src/test/resources/Features/Inventory.feature:87)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.MyTestRunner@4e50c791]" started-at="2024-11-29T10:05:59 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T10:06:02 IST" duration-ms="2680" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check logout functionality on inventory page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Inventory Page Automation of Sauce Labs"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.MyTestRunner@4e50c791]" started-at="2024-11-29T10:06:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T10:06:04 IST" duration-ms="2092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check login is successfuly with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Automation of saucedemo site"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.MyTestRunner@4e50c791]" started-at="2024-11-29T10:06:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T10:06:06 IST" duration-ms="1826" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check login with invalid username and valid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Automation of saucedemo site"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.MyTestRunner@4e50c791]" started-at="2024-11-29T10:06:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T10:06:09 IST" duration-ms="3751" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check login with valid username and invalid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Automation of saucedemo site"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.MyTestRunner@4e50c791]" started-at="2024-11-29T10:06:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T10:06:13 IST" duration-ms="3768" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check login with empty username and valid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Automation of saucedemo site"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.MyTestRunner@4e50c791]" started-at="2024-11-29T10:06:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T10:06:15 IST" duration-ms="1786" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check login with valid username and empty password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Automation of saucedemo site"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:testrunner.MyTestRunner@4e50c791]" started-at="2024-11-29T10:06:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-11-29T10:06:17 IST" duration-ms="1683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check login with empty username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Page Automation of saucedemo site"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testrunner.MyTestRunner@4e50c791]" started-at="2024-11-29T10:06:17 IST" name="tearDownClass" finished-at="2024-11-29T10:06:17 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- testrunner.MyTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

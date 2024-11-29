@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="testrunner.MyTestRunner" time="140.07" tests="33" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="webdriver.chrome.driver" value="C:\chromedriver-win64\chromedriver-win64\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\rajam\eclipse-workspace\BDDCucumber\target\test-classes;C:\Users\rajam\eclipse-workspace\BDDCucumber\target\classes;C:\Users\rajam\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\rajam\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\rajam\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\rajam\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\rajam\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\rajam\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\rajam\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\rajam\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\rajam\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\rajam\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\rajam\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\rajam\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\rajam\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\rajam\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\rajam\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\rajam\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\rajam\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\rajam\.m2\repository\io\cucumber\cucumber-testng\7.20.1\cucumber-testng-7.20.1.jar;C:\Users\rajam\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\rajam\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\rajam\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\rajam\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-java\4.26.0\selenium-java-4.26.0.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-api\4.26.0\selenium-api-4.26.0.jar;C:\Users\rajam\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.26.0\selenium-chrome-driver-4.26.0.jar;C:\Users\rajam\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.26.0\selenium-chromium-driver-4.26.0.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-json\4.26.0\selenium-json-4.26.0.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.26.0\selenium-manager-4.26.0.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.26.0\selenium-devtools-v128-4.26.0.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.26.0\selenium-devtools-v129-4.26.0.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.26.0\selenium-devtools-v130-4.26.0.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.26.0\selenium-devtools-v85-4.26.0.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.26.0\selenium-edge-driver-4.26.0.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.26.0\selenium-firefox-driver-4.26.0.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-http\4.26.0\selenium-http-4.26.0.jar;C:\Users\rajam\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.26.0\selenium-ie-driver-4.26.0.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.26.0\selenium-remote-driver-4.26.0.jar;C:\Users\rajam\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\rajam\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\rajam\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\rajam\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\rajam\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\rajam\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\rajam\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\rajam\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\rajam\.m2\repository\io\opentelemetry\opentelemetry-api\1.43.0\opentelemetry-api-1.43.0.jar;C:\Users\rajam\.m2\repository\io\opentelemetry\opentelemetry-context\1.43.0\opentelemetry-context-1.43.0.jar;C:\Users\rajam\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.43.0\opentelemetry-exporter-logging-1.43.0.jar;C:\Users\rajam\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.43.0\opentelemetry-sdk-common-1.43.0.jar;C:\Users\rajam\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.43.0\opentelemetry-sdk-extension-autoconfigure-spi-1.43.0.jar;C:\Users\rajam\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.43.0\opentelemetry-sdk-extension-autoconfigure-1.43.0.jar;C:\Users\rajam\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.43.0-alpha\opentelemetry-api-incubator-1.43.0-alpha.jar;C:\Users\rajam\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.43.0\opentelemetry-sdk-trace-1.43.0.jar;C:\Users\rajam\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.43.0\opentelemetry-sdk-1.43.0.jar;C:\Users\rajam\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.43.0\opentelemetry-sdk-metrics-1.43.0.jar;C:\Users\rajam\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.43.0\opentelemetry-sdk-logs-1.43.0.jar;C:\Users\rajam\.m2\repository\net\bytebuddy\byte-buddy\1.15.7\byte-buddy-1.15.7.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-os\4.26.0\selenium-os-4.26.0.jar;C:\Users\rajam\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.26.0\selenium-safari-driver-4.26.0.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-support\4.26.0\selenium-support-4.26.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
+    <property name="sun.java.command" value="C:\Users\rajam\AppData\Local\Temp\surefire12603312290601847966\surefirebooter-20241114103258689_3.jar C:\Users\rajam\AppData\Local\Temp\surefire12603312290601847966 2024-11-14T10-32-58_458-jvmRun1 surefire-20241114103258689_1tmp surefire_0-20241114103258689_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\rajam\eclipse-workspace\BDDCucumber\target\test-classes;C:\Users\rajam\eclipse-workspace\BDDCucumber\target\classes;C:\Users\rajam\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\rajam\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\rajam\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\rajam\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\rajam\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\rajam\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\rajam\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\rajam\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\rajam\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\rajam\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\rajam\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\rajam\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\rajam\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\rajam\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\rajam\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\rajam\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\rajam\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\rajam\.m2\repository\io\cucumber\cucumber-testng\7.20.1\cucumber-testng-7.20.1.jar;C:\Users\rajam\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\rajam\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\rajam\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\rajam\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-java\4.26.0\selenium-java-4.26.0.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-api\4.26.0\selenium-api-4.26.0.jar;C:\Users\rajam\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.26.0\selenium-chrome-driver-4.26.0.jar;C:\Users\rajam\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.26.0\selenium-chromium-driver-4.26.0.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-json\4.26.0\selenium-json-4.26.0.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.26.0\selenium-manager-4.26.0.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.26.0\selenium-devtools-v128-4.26.0.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.26.0\selenium-devtools-v129-4.26.0.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.26.0\selenium-devtools-v130-4.26.0.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.26.0\selenium-devtools-v85-4.26.0.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.26.0\selenium-edge-driver-4.26.0.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.26.0\selenium-firefox-driver-4.26.0.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-http\4.26.0\selenium-http-4.26.0.jar;C:\Users\rajam\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.26.0\selenium-ie-driver-4.26.0.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.26.0\selenium-remote-driver-4.26.0.jar;C:\Users\rajam\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\rajam\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\rajam\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\rajam\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\rajam\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\rajam\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\rajam\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\rajam\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\rajam\.m2\repository\io\opentelemetry\opentelemetry-api\1.43.0\opentelemetry-api-1.43.0.jar;C:\Users\rajam\.m2\repository\io\opentelemetry\opentelemetry-context\1.43.0\opentelemetry-context-1.43.0.jar;C:\Users\rajam\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.43.0\opentelemetry-exporter-logging-1.43.0.jar;C:\Users\rajam\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.43.0\opentelemetry-sdk-common-1.43.0.jar;C:\Users\rajam\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.43.0\opentelemetry-sdk-extension-autoconfigure-spi-1.43.0.jar;C:\Users\rajam\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.43.0\opentelemetry-sdk-extension-autoconfigure-1.43.0.jar;C:\Users\rajam\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.43.0-alpha\opentelemetry-api-incubator-1.43.0-alpha.jar;C:\Users\rajam\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.43.0\opentelemetry-sdk-trace-1.43.0.jar;C:\Users\rajam\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.43.0\opentelemetry-sdk-1.43.0.jar;C:\Users\rajam\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.43.0\opentelemetry-sdk-metrics-1.43.0.jar;C:\Users\rajam\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.43.0\opentelemetry-sdk-logs-1.43.0.jar;C:\Users\rajam\.m2\repository\net\bytebuddy\byte-buddy\1.15.7\byte-buddy-1.15.7.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-os\4.26.0\selenium-os-4.26.0.jar;C:\Users\rajam\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.26.0\selenium-safari-driver-4.26.0.jar;C:\Users\rajam\.m2\repository\org\seleniumhq\selenium\selenium-support\4.26.0\selenium-support-4.26.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\rajam"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-23"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\rajam\eclipse-workspace\BDDCucumber"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\rajam\AppData\Local\Temp\surefire12603312290601847966\surefirebooter-20241114103258689_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23.0.1+11-39"/>
+    <property name="user.name" value="rajam"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\rajam\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\rajam\AppData\Local\Temp\"/>
+    <property name="java.version" value="23.0.1"/>
+    <property name="user.dir" value="C:\Users\rajam\eclipse-workspace\BDDCucumber"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath_target_240984;C:\Program Files\Java\jdk-23\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Program Files\nodejs\;C:\Users\rajam\AppData\Local\Android\Sdk\tools\bin;C:\Users\rajam\AppData\Local\Android\Sdk\tools;C:\Users\rajam\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs\node_modules\npm\bin;C:\Users\rajam\AppData\Local\Programs\Python\Python311;C:\Users\rajam\AppData\Local\Programs\Python\Python311\Scripts;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Users\rajam\AppData\Local\Microsoft\WindowsApps;;C:\Users\rajam\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\rajam\AppData\Roaming\npm;C:\Program Files\JetBrains\PyCharm Community Edition 2023.2.1\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="23.0.1+11-39"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Adding a product to the shopping cart and verifying on the cart page&quot;, &quot;Shopping Cart Functionality&quot;](1)" classname="testrunner.MyTestRunner" time="6.004">
+    <system-out><![CDATA[
+Scenario: Adding a product to the shopping cart and verifying on the cart page &amp#27;[90m# src/test/resources/Features/Cart.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on the inventory page&amp#27;[0m                                          &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_is_on_the_inventory_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser adds &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Bike Light"&amp#27;[0m&amp#27;[32m to the cart&amp#27;[0m                           &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_adds_to_the_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser go to the cart page&amp#27;[0m                                                 &amp#27;[90m# stepdefinitions.CartStepDefinition.user_go_to_the_cart_page()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe cart should contain &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m item&amp#27;[0m                                          &amp#27;[90m# stepdefinitions.CartStepDefinition.the_cart_should_contain_item(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe item in the cart should be &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Bike Light"&amp#27;[0m                   &amp#27;[90m# stepdefinitions.CartStepDefinition.the_item_in_the_cart_should_be(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe total price should be &amp#27;[0m&amp#27;[32m&amp#27;[1m9.99&amp#27;[0m                                           &amp#27;[90m# stepdefinitions.CartStepDefinition.the_total_price_should_be(java.lang.Double)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Nov 14, 2024 10:33:03 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Adding multiple products to the shopping cart and verifying on the cart page&quot;, &quot;Shopping Cart Functionality&quot;](2)" classname="testrunner.MyTestRunner" time="3.552">
+    <system-out><![CDATA[
+Scenario: Adding multiple products to the shopping cart and verifying on the cart page     &amp#27;[90m# src/test/resources/Features/Cart.feature:26&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on the inventory page&amp#27;[0m                                                      &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_is_on_the_inventory_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser adds &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Backpack"&amp#27;[0m&amp#27;[32m to the cart&amp#27;[0m                                         &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_adds_to_the_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser adds &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Fleece Jacket"&amp#27;[0m&amp#27;[32m to the cart&amp#27;[0m                                     &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_adds_to_the_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser go to the cart page&amp#27;[0m                                                             &amp#27;[90m# stepdefinitions.CartStepDefinition.user_go_to_the_cart_page()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe cart should contain &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m&amp#27;[32m item&amp#27;[0m                                                      &amp#27;[90m# stepdefinitions.CartStepDefinition.the_cart_should_contain_item(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe items in the cart should be &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Backpack"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Fleece Jacket"&amp#27;[0m &amp#27;[90m# stepdefinitions.CartStepDefinition.the_items_in_the_cart_should_be_and(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe total price should be &amp#27;[0m&amp#27;[32m&amp#27;[1m79.98&amp#27;[0m                                                      &amp#27;[90m# stepdefinitions.CartStepDefinition.the_total_price_should_be(java.lang.Double)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 14, 2024 10:33:08 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Removing an item from the cart and verifying the cart page&quot;, &quot;Shopping Cart Functionality&quot;](3)" classname="testrunner.MyTestRunner" time="4.948">
+    <system-out><![CDATA[
+Scenario: Removing an item from the cart and verifying the cart page &amp#27;[90m# src/test/resources/Features/Cart.feature:41&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on the inventory page&amp#27;[0m                                &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_is_on_the_inventory_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser adds &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Backpack"&amp#27;[0m&amp#27;[32m to the cart&amp#27;[0m                   &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_adds_to_the_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser adds &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Fleece Jacket"&amp#27;[0m&amp#27;[32m to the cart&amp#27;[0m               &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_adds_to_the_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser removes &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Backpack"&amp#27;[0m&amp#27;[32m from the cart&amp#27;[0m              &amp#27;[90m# stepdefinitions.CartStepDefinition.user_removes_from_the_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser go to the cart page&amp#27;[0m                                       &amp#27;[90m# stepdefinitions.CartStepDefinition.user_go_to_the_cart_page()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe cart should contain &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m item&amp#27;[0m                                &amp#27;[90m# stepdefinitions.CartStepDefinition.the_cart_should_contain_item(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe item in the cart should be &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Fleece Jacket"&amp#27;[0m      &amp#27;[90m# stepdefinitions.CartStepDefinition.the_item_in_the_cart_should_be(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe total price should be &amp#27;[0m&amp#27;[32m&amp#27;[1m49.99&amp#27;[0m                                &amp#27;[90m# stepdefinitions.CartStepDefinition.the_total_price_should_be(java.lang.Double)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 14, 2024 10:33:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Proceeding to Checkout from the cart page&quot;, &quot;Shopping Cart Functionality&quot;](4)" classname="testrunner.MyTestRunner" time="3.69">
+    <system-out><![CDATA[
+Scenario: Proceeding to Checkout from the cart page       &amp#27;[90m# src/test/resources/Features/Cart.feature:52&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on the inventory page&amp#27;[0m                     &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_is_on_the_inventory_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser adds &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Backpack"&amp#27;[0m&amp#27;[32m to the cart&amp#27;[0m        &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_adds_to_the_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser go to the cart page&amp#27;[0m                            &amp#27;[90m# stepdefinitions.CartStepDefinition.user_go_to_the_cart_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser clicks Checkout&amp#27;[0m                               &amp#27;[90m# stepdefinitions.CartStepDefinition.user_clicks_checkout()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user should be redirected to the checkout page&amp#27;[0m &amp#27;[90m# stepdefinitions.CartStepDefinition.the_user_should_be_redirected_to_the_checkout_page()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 14, 2024 10:33:16 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Proceeding to Checkout from the cart page&quot;, &quot;Shopping Cart Functionality&quot;](5)" classname="testrunner.MyTestRunner" time="3.524">
+    <system-out><![CDATA[
+Scenario: Proceeding to Checkout from the cart page       &amp#27;[90m# src/test/resources/Features/Cart.feature:53&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on the inventory page&amp#27;[0m                     &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_is_on_the_inventory_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser adds &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Bike Light"&amp#27;[0m&amp#27;[32m to the cart&amp#27;[0m      &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_adds_to_the_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser go to the cart page&amp#27;[0m                            &amp#27;[90m# stepdefinitions.CartStepDefinition.user_go_to_the_cart_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser clicks Checkout&amp#27;[0m                               &amp#27;[90m# stepdefinitions.CartStepDefinition.user_clicks_checkout()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user should be redirected to the checkout page&amp#27;[0m &amp#27;[90m# stepdefinitions.CartStepDefinition.the_user_should_be_redirected_to_the_checkout_page()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 14, 2024 10:33:20 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Continuing shopping after adding items to the cart&quot;, &quot;Shopping Cart Functionality&quot;](6)" classname="testrunner.MyTestRunner" time="6.175">
+    <system-out><![CDATA[
+Scenario: Continuing shopping after adding items to the cart &amp#27;[90m# src/test/resources/Features/Cart.feature:65&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on the inventory page&amp#27;[0m                        &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_is_on_the_inventory_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser adds &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Backpack"&amp#27;[0m&amp#27;[32m to the cart&amp#27;[0m           &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_adds_to_the_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser go to the cart page&amp#27;[0m                               &amp#27;[90m# stepdefinitions.CartStepDefinition.user_go_to_the_cart_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser clicks Continue Shopping&amp#27;[0m                         &amp#27;[90m# stepdefinitions.CartStepDefinition.user_clicks_continue_shopping()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user should be redirected to the inventory page&amp#27;[0m   &amp#27;[90m# stepdefinitions.CartStepDefinition.the_user_should_be_redirected_to_the_inventory_page()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 14, 2024 10:33:23 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Continuing shopping after adding items to the cart&quot;, &quot;Shopping Cart Functionality&quot;](7)" classname="testrunner.MyTestRunner" time="3.243">
+    <system-out><![CDATA[
+Scenario: Continuing shopping after adding items to the cart &amp#27;[90m# src/test/resources/Features/Cart.feature:66&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on the inventory page&amp#27;[0m                        &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_is_on_the_inventory_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser adds &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Bike Light"&amp#27;[0m&amp#27;[32m to the cart&amp#27;[0m         &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_adds_to_the_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser go to the cart page&amp#27;[0m                               &amp#27;[90m# stepdefinitions.CartStepDefinition.user_go_to_the_cart_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser clicks Continue Shopping&amp#27;[0m                         &amp#27;[90m# stepdefinitions.CartStepDefinition.user_clicks_continue_shopping()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user should be redirected to the inventory page&amp#27;[0m   &amp#27;[90m# stepdefinitions.CartStepDefinition.the_user_should_be_redirected_to_the_inventory_page()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 14, 2024 10:33:30 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User fills out the checkout information and completes the checkout&quot;, &quot;Checkout Page Functionality&quot;](8)" classname="testrunner.MyTestRunner" time="4.512">
+    <system-out><![CDATA[
+Scenario: User fills out the checkout information and completes the checkout                                       &amp#27;[90m# src/test/resources/Features/Checkout.feature:26&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on the inventory page&amp#27;[0m                                                                              &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_is_on_the_inventory_page()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser adds &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Backpack"&amp#27;[0m&amp#27;[32m to the cart&amp#27;[0m                                                                  &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_adds_to_the_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser go to the cart page&amp#27;[0m                                                                                     &amp#27;[90m# stepdefinitions.CartStepDefinition.user_go_to_the_cart_page()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe cart should contain &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m item&amp#27;[0m                                                                              &amp#27;[90m# stepdefinitions.CartStepDefinition.the_cart_should_contain_item(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe total price should be &amp#27;[0m&amp#27;[32m&amp#27;[1m29.99&amp#27;[0m                                                                              &amp#27;[90m# stepdefinitions.CartStepDefinition.the_total_price_should_be(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser clicks Checkout&amp#27;[0m                                                                                        &amp#27;[90m# stepdefinitions.CartStepDefinition.user_clicks_checkout()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user should be redirected to the checkout page&amp#27;[0m                                                         &amp#27;[90m# stepdefinitions.CartStepDefinition.the_user_should_be_redirected_to_the_checkout_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"petta"&amp#27;[0m&amp#27;[32m in the First Name field&amp#27;[0m                                                                 &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_enters_in_the_first_name_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"raja"&amp#27;[0m&amp#27;[32m in the Last Name field&amp#27;[0m                                                                    &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_enters_in_the_last_name_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"90210"&amp#27;[0m&amp#27;[32m in the Zip/Postal Code field&amp#27;[0m                                                             &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_enters_in_the_zip_postal_code_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks Continue&amp#27;[0m                                                                                         &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_clicks_continue()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user should be redirected to the confirmation page&amp#27;[0m                                                      &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.the_user_should_be_redirected_to_the_confirmation_page()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe order details should be correct product name &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Backpack"&amp#27;[0m&amp#27;[32m, product count &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, product price &amp#27;[0m&amp#27;[32m&amp#27;[1m29.99&amp#27;[0m &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.the_order_details_should_be_correct_product_name_product_count_product_price(java.lang.String,java.lang.Integer,java.lang.Double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks Finish&amp#27;[0m                                                                                           &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_clicks_Finish()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser should recieve order sucessfully placed Message&amp#27;[0m                                                         &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_should_recieve_order_sucessfully_placed_message()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 14, 2024 10:33:33 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User fills out the checkout information and completes the checkout&quot;, &quot;Checkout Page Functionality&quot;](9)" classname="testrunner.MyTestRunner" time="4.761">
+    <system-out><![CDATA[
+Scenario: User fills out the checkout information and completes the checkout                                       &amp#27;[90m# src/test/resources/Features/Checkout.feature:27&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on the inventory page&amp#27;[0m                                                                              &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_is_on_the_inventory_page()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser adds &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Backpack"&amp#27;[0m&amp#27;[32m to the cart&amp#27;[0m                                                                  &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_adds_to_the_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser go to the cart page&amp#27;[0m                                                                                     &amp#27;[90m# stepdefinitions.CartStepDefinition.user_go_to_the_cart_page()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe cart should contain &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m item&amp#27;[0m                                                                              &amp#27;[90m# stepdefinitions.CartStepDefinition.the_cart_should_contain_item(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe total price should be &amp#27;[0m&amp#27;[32m&amp#27;[1m29.99&amp#27;[0m                                                                              &amp#27;[90m# stepdefinitions.CartStepDefinition.the_total_price_should_be(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser clicks Checkout&amp#27;[0m                                                                                        &amp#27;[90m# stepdefinitions.CartStepDefinition.user_clicks_checkout()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user should be redirected to the checkout page&amp#27;[0m                                                         &amp#27;[90m# stepdefinitions.CartStepDefinition.the_user_should_be_redirected_to_the_checkout_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"john"&amp#27;[0m&amp#27;[32m in the First Name field&amp#27;[0m                                                                  &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_enters_in_the_first_name_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"doe"&amp#27;[0m&amp#27;[32m in the Last Name field&amp#27;[0m                                                                     &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_enters_in_the_last_name_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"12345"&amp#27;[0m&amp#27;[32m in the Zip/Postal Code field&amp#27;[0m                                                             &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_enters_in_the_zip_postal_code_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks Continue&amp#27;[0m                                                                                         &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_clicks_continue()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user should be redirected to the confirmation page&amp#27;[0m                                                      &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.the_user_should_be_redirected_to_the_confirmation_page()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe order details should be correct product name &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Backpack"&amp#27;[0m&amp#27;[32m, product count &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, product price &amp#27;[0m&amp#27;[32m&amp#27;[1m29.99&amp#27;[0m &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.the_order_details_should_be_correct_product_name_product_count_product_price(java.lang.String,java.lang.Integer,java.lang.Double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks Finish&amp#27;[0m                                                                                           &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_clicks_Finish()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser should recieve order sucessfully placed Message&amp#27;[0m                                                         &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_should_recieve_order_sucessfully_placed_message()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 14, 2024 10:33:37 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;User fills out the checkout information and completes the checkout&quot;, &quot;Checkout Page Functionality&quot;](10)" classname="testrunner.MyTestRunner" time="8.712">
+    <system-out><![CDATA[
+Scenario: User fills out the checkout information and completes the checkout                                       &amp#27;[90m# src/test/resources/Features/Checkout.feature:28&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on the inventory page&amp#27;[0m                                                                              &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_is_on_the_inventory_page()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser adds &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Backpack"&amp#27;[0m&amp#27;[32m to the cart&amp#27;[0m                                                                  &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_adds_to_the_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser go to the cart page&amp#27;[0m                                                                                     &amp#27;[90m# stepdefinitions.CartStepDefinition.user_go_to_the_cart_page()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe cart should contain &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m item&amp#27;[0m                                                                              &amp#27;[90m# stepdefinitions.CartStepDefinition.the_cart_should_contain_item(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe total price should be &amp#27;[0m&amp#27;[32m&amp#27;[1m29.99&amp#27;[0m                                                                              &amp#27;[90m# stepdefinitions.CartStepDefinition.the_total_price_should_be(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser clicks Checkout&amp#27;[0m                                                                                        &amp#27;[90m# stepdefinitions.CartStepDefinition.user_clicks_checkout()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user should be redirected to the checkout page&amp#27;[0m                                                         &amp#27;[90m# stepdefinitions.CartStepDefinition.the_user_should_be_redirected_to_the_checkout_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"jane"&amp#27;[0m&amp#27;[32m in the First Name field&amp#27;[0m                                                                  &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_enters_in_the_first_name_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"smith"&amp#27;[0m&amp#27;[32m in the Last Name field&amp#27;[0m                                                                   &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_enters_in_the_last_name_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"54321"&amp#27;[0m&amp#27;[32m in the Zip/Postal Code field&amp#27;[0m                                                             &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_enters_in_the_zip_postal_code_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks Continue&amp#27;[0m                                                                                         &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_clicks_continue()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user should be redirected to the confirmation page&amp#27;[0m                                                      &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.the_user_should_be_redirected_to_the_confirmation_page()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe order details should be correct product name &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Backpack"&amp#27;[0m&amp#27;[32m, product count &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, product price &amp#27;[0m&amp#27;[32m&amp#27;[1m29.99&amp#27;[0m &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.the_order_details_should_be_correct_product_name_product_count_product_price(java.lang.String,java.lang.Integer,java.lang.Double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks Finish&amp#27;[0m                                                                                           &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_clicks_Finish()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser should recieve order sucessfully placed Message&amp#27;[0m                                                         &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_should_recieve_order_sucessfully_placed_message()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 14, 2024 10:33:42 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;complete shopping flow from login to order placed&quot;, &quot;Shopping Cart and Checkout Flow&quot;](11)" classname="testrunner.MyTestRunner" time="7.008">
+    <system-out><![CDATA[
+Scenario: complete shopping flow from login to order placed                                                         &amp#27;[90m# src/test/resources/Features/CompletePurchaseProcess.feature:32&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on login page&amp#27;[0m                                                                                       &amp#27;[90m# stepdefinitions.LoginStepDefinition.user_is_on_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"standard_user"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m"secret_sauce"&amp#27;[0m                                                               &amp#27;[90m# stepdefinitions.LoginStepDefinition.user_enters_username_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClicks on Login Button&amp#27;[0m                                                                                        &amp#27;[90m# stepdefinitions.LoginStepDefinition.clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser is navigated to Home Page&amp#27;[0m                                                                               &amp#27;[90m# stepdefinitions.LoginStepDefinition.user_is_navigated_to_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser adds &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Bike Light"&amp#27;[0m&amp#27;[32m to the cart&amp#27;[0m                                                                &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_adds_to_the_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe cart count is updated to &amp#27;[0m&amp#27;[32m&amp#27;[1m"1"&amp#27;[0m                                                                             &amp#27;[90m# stepdefinitions.InventoryStepDefinition.the_cart_count_is_updated_to(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser go to the cart page&amp#27;[0m                                                                                      &amp#27;[90m# stepdefinitions.CartStepDefinition.user_go_to_the_cart_page()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe cart should contain &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m item&amp#27;[0m                                                                               &amp#27;[90m# stepdefinitions.CartStepDefinition.the_cart_should_contain_item(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe item in the cart should be &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Bike Light"&amp#27;[0m                                                        &amp#27;[90m# stepdefinitions.CartStepDefinition.the_item_in_the_cart_should_be(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe total price should be &amp#27;[0m&amp#27;[32m&amp#27;[1m9.99&amp#27;[0m                                                                                &amp#27;[90m# stepdefinitions.CartStepDefinition.the_total_price_should_be(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser clicks Checkout&amp#27;[0m                                                                                         &amp#27;[90m# stepdefinitions.CartStepDefinition.user_clicks_checkout()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user should be redirected to the checkout page&amp#27;[0m                                                           &amp#27;[90m# stepdefinitions.CartStepDefinition.the_user_should_be_redirected_to_the_checkout_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"Herald"&amp#27;[0m&amp#27;[32m in the First Name field&amp#27;[0m                                                                 &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_enters_in_the_first_name_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"Doss"&amp#27;[0m&amp#27;[32m in the Last Name field&amp#27;[0m                                                                     &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_enters_in_the_last_name_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"90210"&amp#27;[0m&amp#27;[32m in the Zip/Postal Code field&amp#27;[0m                                                              &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_enters_in_the_zip_postal_code_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks Continue&amp#27;[0m                                                                                          &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_clicks_continue()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user should be redirected to the confirmation page&amp#27;[0m                                                       &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.the_user_should_be_redirected_to_the_confirmation_page()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe order details should be correct product name &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Bike Light"&amp#27;[0m&amp#27;[32m, product count &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, product price &amp#27;[0m&amp#27;[32m&amp#27;[1m9.99&amp#27;[0m &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.the_order_details_should_be_correct_product_name_product_count_product_price(java.lang.String,java.lang.Integer,java.lang.Double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks Finish&amp#27;[0m                                                                                            &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_clicks_Finish()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser should recieve order sucessfully placed Message&amp#27;[0m                                                          &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_should_recieve_order_sucessfully_placed_message()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 14, 2024 10:33:51 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;complete shopping flow from login to order placed&quot;, &quot;Shopping Cart and Checkout Flow&quot;](12)" classname="testrunner.MyTestRunner" time="6.146">
+    <system-out><![CDATA[
+Scenario: complete shopping flow from login to order placed                                                        &amp#27;[90m# src/test/resources/Features/CompletePurchaseProcess.feature:33&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on login page&amp#27;[0m                                                                                      &amp#27;[90m# stepdefinitions.LoginStepDefinition.user_is_on_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"standard_user"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m"secret_sauce"&amp#27;[0m                                                              &amp#27;[90m# stepdefinitions.LoginStepDefinition.user_enters_username_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClicks on Login Button&amp#27;[0m                                                                                       &amp#27;[90m# stepdefinitions.LoginStepDefinition.clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser is navigated to Home Page&amp#27;[0m                                                                              &amp#27;[90m# stepdefinitions.LoginStepDefinition.user_is_navigated_to_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser adds &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Backpack"&amp#27;[0m&amp#27;[32m to the cart&amp#27;[0m                                                                 &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_adds_to_the_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe cart count is updated to &amp#27;[0m&amp#27;[32m&amp#27;[1m"1"&amp#27;[0m                                                                            &amp#27;[90m# stepdefinitions.InventoryStepDefinition.the_cart_count_is_updated_to(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser go to the cart page&amp#27;[0m                                                                                     &amp#27;[90m# stepdefinitions.CartStepDefinition.user_go_to_the_cart_page()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe cart should contain &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m item&amp#27;[0m                                                                              &amp#27;[90m# stepdefinitions.CartStepDefinition.the_cart_should_contain_item(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe item in the cart should be &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Backpack"&amp#27;[0m                                                         &amp#27;[90m# stepdefinitions.CartStepDefinition.the_item_in_the_cart_should_be(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe total price should be &amp#27;[0m&amp#27;[32m&amp#27;[1m29.99&amp#27;[0m                                                                              &amp#27;[90m# stepdefinitions.CartStepDefinition.the_total_price_should_be(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser clicks Checkout&amp#27;[0m                                                                                        &amp#27;[90m# stepdefinitions.CartStepDefinition.user_clicks_checkout()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user should be redirected to the checkout page&amp#27;[0m                                                          &amp#27;[90m# stepdefinitions.CartStepDefinition.the_user_should_be_redirected_to_the_checkout_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"John"&amp#27;[0m&amp#27;[32m in the First Name field&amp#27;[0m                                                                  &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_enters_in_the_first_name_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"Abraham"&amp#27;[0m&amp#27;[32m in the Last Name field&amp#27;[0m                                                                 &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_enters_in_the_last_name_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"10001"&amp#27;[0m&amp#27;[32m in the Zip/Postal Code field&amp#27;[0m                                                             &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_enters_in_the_zip_postal_code_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks Continue&amp#27;[0m                                                                                         &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_clicks_continue()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user should be redirected to the confirmation page&amp#27;[0m                                                      &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.the_user_should_be_redirected_to_the_confirmation_page()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe order details should be correct product name &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Backpack"&amp#27;[0m&amp#27;[32m, product count &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, product price &amp#27;[0m&amp#27;[32m&amp#27;[1m29.99&amp#27;[0m &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.the_order_details_should_be_correct_product_name_product_count_product_price(java.lang.String,java.lang.Integer,java.lang.Double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks Finish&amp#27;[0m                                                                                           &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_clicks_Finish()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser should recieve order sucessfully placed Message&amp#27;[0m                                                         &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_should_recieve_order_sucessfully_placed_message()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 14, 2024 10:33:58 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;complete shopping flow from login to order placed&quot;, &quot;Shopping Cart and Checkout Flow&quot;](13)" classname="testrunner.MyTestRunner" time="4.99">
+    <system-out><![CDATA[
+Scenario: complete shopping flow from login to order placed                                                     &amp#27;[90m# src/test/resources/Features/CompletePurchaseProcess.feature:34&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on login page&amp#27;[0m                                                                                   &amp#27;[90m# stepdefinitions.LoginStepDefinition.user_is_on_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"standard_user"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m"secret_sauce"&amp#27;[0m                                                           &amp#27;[90m# stepdefinitions.LoginStepDefinition.user_enters_username_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClicks on Login Button&amp#27;[0m                                                                                    &amp#27;[90m# stepdefinitions.LoginStepDefinition.clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser is navigated to Home Page&amp#27;[0m                                                                           &amp#27;[90m# stepdefinitions.LoginStepDefinition.user_is_navigated_to_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser adds &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Onesie"&amp#27;[0m&amp#27;[32m to the cart&amp#27;[0m                                                                &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_adds_to_the_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe cart count is updated to &amp#27;[0m&amp#27;[32m&amp#27;[1m"1"&amp#27;[0m                                                                         &amp#27;[90m# stepdefinitions.InventoryStepDefinition.the_cart_count_is_updated_to(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser go to the cart page&amp#27;[0m                                                                                  &amp#27;[90m# stepdefinitions.CartStepDefinition.user_go_to_the_cart_page()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe cart should contain &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m item&amp#27;[0m                                                                           &amp#27;[90m# stepdefinitions.CartStepDefinition.the_cart_should_contain_item(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe item in the cart should be &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Onesie"&amp#27;[0m                                                        &amp#27;[90m# stepdefinitions.CartStepDefinition.the_item_in_the_cart_should_be(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe total price should be &amp#27;[0m&amp#27;[32m&amp#27;[1m7.99&amp#27;[0m                                                                            &amp#27;[90m# stepdefinitions.CartStepDefinition.the_total_price_should_be(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser clicks Checkout&amp#27;[0m                                                                                     &amp#27;[90m# stepdefinitions.CartStepDefinition.user_clicks_checkout()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user should be redirected to the checkout page&amp#27;[0m                                                       &amp#27;[90m# stepdefinitions.CartStepDefinition.the_user_should_be_redirected_to_the_checkout_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"Alice"&amp#27;[0m&amp#27;[32m in the First Name field&amp#27;[0m                                                              &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_enters_in_the_first_name_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"Smith"&amp#27;[0m&amp#27;[32m in the Last Name field&amp#27;[0m                                                                &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_enters_in_the_last_name_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"20002"&amp#27;[0m&amp#27;[32m in the Zip/Postal Code field&amp#27;[0m                                                          &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_enters_in_the_zip_postal_code_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks Continue&amp#27;[0m                                                                                      &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_clicks_continue()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user should be redirected to the confirmation page&amp#27;[0m                                                   &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.the_user_should_be_redirected_to_the_confirmation_page()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe order details should be correct product name &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Onesie"&amp#27;[0m&amp#27;[32m, product count &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, product price &amp#27;[0m&amp#27;[32m&amp#27;[1m7.99&amp#27;[0m &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.the_order_details_should_be_correct_product_name_product_count_product_price(java.lang.String,java.lang.Integer,java.lang.Double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks Finish&amp#27;[0m                                                                                        &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_clicks_Finish()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser should recieve order sucessfully placed Message&amp#27;[0m                                                      &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_should_recieve_order_sucessfully_placed_message()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 14, 2024 10:34:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;complete shopping flow from login to order placed&quot;, &quot;Shopping Cart and Checkout Flow&quot;](14)" classname="testrunner.MyTestRunner" time="4.729">
+    <system-out><![CDATA[
+Scenario: complete shopping flow from login to order placed                                                             &amp#27;[90m# src/test/resources/Features/CompletePurchaseProcess.feature:35&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on login page&amp#27;[0m                                                                                           &amp#27;[90m# stepdefinitions.LoginStepDefinition.user_is_on_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"standard_user"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m"secret_sauce"&amp#27;[0m                                                                   &amp#27;[90m# stepdefinitions.LoginStepDefinition.user_enters_username_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClicks on Login Button&amp#27;[0m                                                                                            &amp#27;[90m# stepdefinitions.LoginStepDefinition.clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser is navigated to Home Page&amp#27;[0m                                                                                   &amp#27;[90m# stepdefinitions.LoginStepDefinition.user_is_navigated_to_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser adds &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Fleece Jacket"&amp#27;[0m&amp#27;[32m to the cart&amp#27;[0m                                                                 &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_adds_to_the_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe cart count is updated to &amp#27;[0m&amp#27;[32m&amp#27;[1m"1"&amp#27;[0m                                                                                 &amp#27;[90m# stepdefinitions.InventoryStepDefinition.the_cart_count_is_updated_to(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser go to the cart page&amp#27;[0m                                                                                          &amp#27;[90m# stepdefinitions.CartStepDefinition.user_go_to_the_cart_page()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe cart should contain &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m item&amp#27;[0m                                                                                   &amp#27;[90m# stepdefinitions.CartStepDefinition.the_cart_should_contain_item(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe item in the cart should be &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Fleece Jacket"&amp#27;[0m                                                         &amp#27;[90m# stepdefinitions.CartStepDefinition.the_item_in_the_cart_should_be(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe total price should be &amp#27;[0m&amp#27;[32m&amp#27;[1m49.99&amp#27;[0m                                                                                   &amp#27;[90m# stepdefinitions.CartStepDefinition.the_total_price_should_be(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser clicks Checkout&amp#27;[0m                                                                                             &amp#27;[90m# stepdefinitions.CartStepDefinition.user_clicks_checkout()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user should be redirected to the checkout page&amp#27;[0m                                                               &amp#27;[90m# stepdefinitions.CartStepDefinition.the_user_should_be_redirected_to_the_checkout_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"john"&amp#27;[0m&amp#27;[32m in the First Name field&amp#27;[0m                                                                       &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_enters_in_the_first_name_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"Wick"&amp#27;[0m&amp#27;[32m in the Last Name field&amp#27;[0m                                                                         &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_enters_in_the_last_name_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"30003"&amp#27;[0m&amp#27;[32m in the Zip/Postal Code field&amp#27;[0m                                                                  &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_enters_in_the_zip_postal_code_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks Continue&amp#27;[0m                                                                                              &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_clicks_continue()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user should be redirected to the confirmation page&amp#27;[0m                                                           &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.the_user_should_be_redirected_to_the_confirmation_page()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe order details should be correct product name &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Fleece Jacket"&amp#27;[0m&amp#27;[32m, product count &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, product price &amp#27;[0m&amp#27;[32m&amp#27;[1m49.99&amp#27;[0m &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.the_order_details_should_be_correct_product_name_product_count_product_price(java.lang.String,java.lang.Integer,java.lang.Double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks Finish&amp#27;[0m                                                                                                &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_clicks_Finish()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser should recieve order sucessfully placed Message&amp#27;[0m                                                              &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_should_recieve_order_sucessfully_placed_message()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 14, 2024 10:34:09 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;complete shopping flow from login to order placed&quot;, &quot;Shopping Cart and Checkout Flow&quot;](15)" classname="testrunner.MyTestRunner" time="4.396">
+    <system-out><![CDATA[
+Scenario: complete shopping flow from login to order placed                                                            &amp#27;[90m# src/test/resources/Features/CompletePurchaseProcess.feature:36&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on login page&amp#27;[0m                                                                                          &amp#27;[90m# stepdefinitions.LoginStepDefinition.user_is_on_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"standard_user"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m"secret_sauce"&amp#27;[0m                                                                  &amp#27;[90m# stepdefinitions.LoginStepDefinition.user_enters_username_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClicks on Login Button&amp#27;[0m                                                                                           &amp#27;[90m# stepdefinitions.LoginStepDefinition.clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser is navigated to Home Page&amp#27;[0m                                                                                  &amp#27;[90m# stepdefinitions.LoginStepDefinition.user_is_navigated_to_home_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser adds &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Bolt T-Shirt"&amp#27;[0m&amp#27;[32m to the cart&amp#27;[0m                                                                 &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_adds_to_the_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe cart count is updated to &amp#27;[0m&amp#27;[32m&amp#27;[1m"1"&amp#27;[0m                                                                                &amp#27;[90m# stepdefinitions.InventoryStepDefinition.the_cart_count_is_updated_to(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser go to the cart page&amp#27;[0m                                                                                         &amp#27;[90m# stepdefinitions.CartStepDefinition.user_go_to_the_cart_page()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe cart should contain &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m item&amp#27;[0m                                                                                  &amp#27;[90m# stepdefinitions.CartStepDefinition.the_cart_should_contain_item(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe item in the cart should be &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Bolt T-Shirt"&amp#27;[0m                                                         &amp#27;[90m# stepdefinitions.CartStepDefinition.the_item_in_the_cart_should_be(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe total price should be &amp#27;[0m&amp#27;[32m&amp#27;[1m15.99&amp#27;[0m                                                                                  &amp#27;[90m# stepdefinitions.CartStepDefinition.the_total_price_should_be(java.lang.Double)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser clicks Checkout&amp#27;[0m                                                                                            &amp#27;[90m# stepdefinitions.CartStepDefinition.user_clicks_checkout()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user should be redirected to the checkout page&amp#27;[0m                                                              &amp#27;[90m# stepdefinitions.CartStepDefinition.the_user_should_be_redirected_to_the_checkout_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"Mark"&amp#27;[0m&amp#27;[32m in the First Name field&amp#27;[0m                                                                      &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_enters_in_the_first_name_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"Antony"&amp#27;[0m&amp#27;[32m in the Last Name field&amp#27;[0m                                                                      &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_enters_in_the_last_name_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"40004"&amp#27;[0m&amp#27;[32m in the Zip/Postal Code field&amp#27;[0m                                                                 &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_enters_in_the_zip_postal_code_field(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks Continue&amp#27;[0m                                                                                             &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_clicks_continue()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe user should be redirected to the confirmation page&amp#27;[0m                                                          &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.the_user_should_be_redirected_to_the_confirmation_page()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe order details should be correct product name &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Bolt T-Shirt"&amp#27;[0m&amp#27;[32m, product count &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m, product price &amp#27;[0m&amp#27;[32m&amp#27;[1m15.99&amp#27;[0m &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.the_order_details_should_be_correct_product_name_product_count_product_price(java.lang.String,java.lang.Integer,java.lang.Double)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser clicks Finish&amp#27;[0m                                                                                               &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_clicks_Finish()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser should recieve order sucessfully placed Message&amp#27;[0m                                                             &amp#27;[90m# stepdefinitions.CheckoutStepDefinition.user_should_recieve_order_sucessfully_placed_message()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 14, 2024 10:34:14 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Check that all items are displayed in the inventory&quot;, &quot;Inventory Page Automation of Sauce Labs&quot;](16)" classname="testrunner.MyTestRunner" time="4.534">
+    <system-out><![CDATA[
+Scenario: Check that all items are displayed in the inventory &amp#27;[90m# src/test/resources/Features/Inventory.feature:4&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on the inventory page&amp#27;[0m                         &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_is_on_the_inventory_page()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe page displays the following items:&amp#27;[0m                 &amp#27;[90m# stepdefinitions.InventoryStepDefinition.the_page_displays_the_following_items(io.cucumber.datatable.DataTable)&amp#27;[0m
+    | Sauce Labs Backpack               | $29.99 |
+    | Sauce Labs Bike Light             | $9.99  |
+    | Sauce Labs Bolt T-Shirt           | $15.99 |
+    | Sauce Labs Fleece Jacket          | $49.99 |
+    | Sauce Labs Onesie                 | $7.99  |
+    | Test.allTheThings() T-Shirt (Red) | $15.99 |
+]]></system-out>
+    <system-err><![CDATA[Nov 14, 2024 10:34:18 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Add item to the cart&quot;, &quot;Inventory Page Automation of Sauce Labs&quot;](17)" classname="testrunner.MyTestRunner" time="3.996">
+    <system-out><![CDATA[
+Scenario: Add item to the cart                       &amp#27;[90m# src/test/resources/Features/Inventory.feature:23&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on the inventory page&amp#27;[0m                &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_is_on_the_inventory_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser adds &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Bike Light"&amp#27;[0m&amp#27;[32m to the cart&amp#27;[0m &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_adds_to_the_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe cart count is updated to &amp#27;[0m&amp#27;[32m&amp#27;[1m"1"&amp#27;[0m              &amp#27;[90m# stepdefinitions.InventoryStepDefinition.the_cart_count_is_updated_to(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 14, 2024 10:34:23 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Add item to the cart&quot;, &quot;Inventory Page Automation of Sauce Labs&quot;](18)" classname="testrunner.MyTestRunner" time="3.075">
+    <system-out><![CDATA[
+Scenario: Add item to the cart                     &amp#27;[90m# src/test/resources/Features/Inventory.feature:24&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on the inventory page&amp#27;[0m              &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_is_on_the_inventory_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser adds &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Backpack"&amp#27;[0m&amp#27;[32m to the cart&amp#27;[0m &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_adds_to_the_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe cart count is updated to &amp#27;[0m&amp#27;[32m&amp#27;[1m"1"&amp#27;[0m            &amp#27;[90m# stepdefinitions.InventoryStepDefinition.the_cart_count_is_updated_to(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 14, 2024 10:34:27 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Add item to the cart&quot;, &quot;Inventory Page Automation of Sauce Labs&quot;](19)" classname="testrunner.MyTestRunner" time="2.826">
+    <system-out><![CDATA[
+Scenario: Add item to the cart                          &amp#27;[90m# src/test/resources/Features/Inventory.feature:25&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on the inventory page&amp#27;[0m                   &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_is_on_the_inventory_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser adds &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Fleece Jacket"&amp#27;[0m&amp#27;[32m to the cart&amp#27;[0m &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_adds_to_the_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe cart count is updated to &amp#27;[0m&amp#27;[32m&amp#27;[1m"1"&amp#27;[0m                 &amp#27;[90m# stepdefinitions.InventoryStepDefinition.the_cart_count_is_updated_to(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 14, 2024 10:34:30 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Add multiple items to the cart&quot;, &quot;Inventory Page Automation of Sauce Labs&quot;](20)" classname="testrunner.MyTestRunner" time="2.818">
+    <system-out><![CDATA[
+Scenario: Add multiple items to the cart               &amp#27;[90m# src/test/resources/Features/Inventory.feature:38&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on the inventory page&amp#27;[0m                  &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_is_on_the_inventory_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser adds &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Backpack"&amp#27;[0m&amp#27;[32m to the cart&amp#27;[0m     &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_adds_to_the_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser adds &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Fleece Jacket"&amp#27;[0m&amp#27;[32m to the cart&amp#27;[0m &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_adds_to_the_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe cart count is updated to &amp#27;[0m&amp#27;[32m&amp#27;[1m"2"&amp#27;[0m                &amp#27;[90m# stepdefinitions.InventoryStepDefinition.the_cart_count_is_updated_to(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 14, 2024 10:34:33 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Add multiple items to the cart&quot;, &quot;Inventory Page Automation of Sauce Labs&quot;](21)" classname="testrunner.MyTestRunner" time="3.029">
+    <system-out><![CDATA[
+Scenario: Add multiple items to the cart               &amp#27;[90m# src/test/resources/Features/Inventory.feature:39&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on the inventory page&amp#27;[0m                  &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_is_on_the_inventory_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser adds &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Bolt T-Shirt"&amp#27;[0m&amp#27;[32m to the cart&amp#27;[0m &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_adds_to_the_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser adds &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sauce Labs Onesie"&amp#27;[0m&amp#27;[32m to the cart&amp#27;[0m        &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_adds_to_the_cart(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe cart count is updated to &amp#27;[0m&amp#27;[32m&amp#27;[1m"2"&amp#27;[0m                &amp#27;[90m# stepdefinitions.InventoryStepDefinition.the_cart_count_is_updated_to(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 14, 2024 10:34:35 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Sort products by Name (Z to A)&quot;, &quot;Inventory Page Automation of Sauce Labs&quot;](22)" classname="testrunner.MyTestRunner" time="3.087">
+    <system-out><![CDATA[
+Scenario: Sort products by Name (Z to A)                                                 &amp#27;[90m# src/test/resources/Features/Inventory.feature:50&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on the inventory page&amp#27;[0m                                                    &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_is_on_the_inventory_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser selects the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Name (Z to A)"&amp#27;[0m&amp#27;[32m option from the sorting dropdown&amp#27;[0m                 &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_selects_the_option_from_the_sorting_dropdown(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe items are displayed in alphabetical order by product name in descending order&amp#27;[0m &amp#27;[90m# stepdefinitions.InventoryStepDefinition.the_items_are_displayed_in_alphabetical_order_by_product_name_in_descending_order()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 14, 2024 10:34:38 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Sort products by Name (A to Z)&quot;, &quot;Inventory Page Automation of Sauce Labs&quot;](23)" classname="testrunner.MyTestRunner" time="3.439">
+    <system-out><![CDATA[
+Scenario: Sort products by Name (A to Z)                                                &amp#27;[90m# src/test/resources/Features/Inventory.feature:60&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on the inventory page&amp#27;[0m                                                   &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_is_on_the_inventory_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser selects the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Name (A to Z)"&amp#27;[0m&amp#27;[32m option from the sorting dropdown&amp#27;[0m                &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_selects_the_option_from_the_sorting_dropdown(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe items are displayed in alphabetical order by product name in ascending order&amp#27;[0m &amp#27;[90m# stepdefinitions.InventoryStepDefinition.the_items_are_displayed_in_alphabetical_order_by_product_name_in_asceding_order()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 14, 2024 10:34:41 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Sort products by Price (Low to High)&quot;, &quot;Inventory Page Automation of Sauce Labs&quot;](24)" classname="testrunner.MyTestRunner" time="5.099">
+    <system-out><![CDATA[
+Scenario: Sort products by Price (Low to High)                                 &amp#27;[90m# src/test/resources/Features/Inventory.feature:70&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on the inventory page&amp#27;[0m                                          &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_is_on_the_inventory_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser selects the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Price (low to high)"&amp#27;[0m&amp#27;[32m option from the sorting dropdown&amp#27;[0m &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_selects_the_option_from_the_sorting_dropdown(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe items are displayed in ascending order of price&amp#27;[0m                     &amp#27;[90m# stepdefinitions.InventoryStepDefinition.the_items_are_displayed_in_ascending_order_of_price()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 14, 2024 10:34:45 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Sort products by Price (High to Low)&quot;, &quot;Inventory Page Automation of Sauce Labs&quot;](25)" classname="testrunner.MyTestRunner" time="3.884">
+    <system-out><![CDATA[
+Scenario: Sort products by Price (High to Low)                                 &amp#27;[90m# src/test/resources/Features/Inventory.feature:80&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on the inventory page&amp#27;[0m                                          &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_is_on_the_inventory_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser selects the &amp#27;[0m&amp#27;[32m&amp#27;[1m"Price (high to low)"&amp#27;[0m&amp#27;[32m option from the sorting dropdown&amp#27;[0m &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_selects_the_option_from_the_sorting_dropdown(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe items are displayed in descending order of price&amp#27;[0m                    &amp#27;[90m# stepdefinitions.InventoryStepDefinition.the_items_are_displayed_in_descending_order_of_price()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 14, 2024 10:34:50 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Verify the Open and Close Menu functionality&quot;, &quot;Inventory Page Automation of Sauce Labs&quot;](26)" classname="testrunner.MyTestRunner" time="3.811">
+    <system-out><![CDATA[
+Scenario: Verify the Open and Close Menu functionality &amp#27;[90m# src/test/resources/Features/Inventory.feature:83&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on the inventory page&amp#27;[0m                  &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_is_on_the_inventory_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser clicks on Open Menu&amp#27;[0m                        &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_clicks_on_open_menu()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe menu is displayed&amp#27;[0m                           &amp#27;[90m# stepdefinitions.InventoryStepDefinition.the_menu_is_dipslayed()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser clicks on Close Menu&amp#27;[0m                       &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_clicks_on_close_menu()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mThe menu is hidden&amp#27;[0m                              &amp#27;[90m# stepdefinitions.InventoryStepDefinition.the_menu_is_hidden()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 14, 2024 10:34:54 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Check logout functionality on inventory page&quot;, &quot;Inventory Page Automation of Sauce Labs&quot;](27)" classname="testrunner.MyTestRunner" time="3.528">
+    <system-out><![CDATA[
+Scenario: Check logout functionality on inventory page &amp#27;[90m# src/test/resources/Features/Inventory.feature:92&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on the inventory page&amp#27;[0m                  &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_is_on_the_inventory_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser clicks on Open Menu&amp#27;[0m                        &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_clicks_on_open_menu()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser clicks on Logout&amp#27;[0m                           &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_clicks_on_logout()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser is redirected to the login page&amp#27;[0m            &amp#27;[90m# stepdefinitions.InventoryStepDefinition.user_is_redirected_to_login_page()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 14, 2024 10:34:58 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Check login is successfuly with valid credentials&quot;, &quot;Login Page Automation of saucedemo site&quot;](28)" classname="testrunner.MyTestRunner" time="3.077">
+    <system-out><![CDATA[
+Scenario: Check login is successfuly with valid credentials &amp#27;[90m# src/test/resources/Features/UserLogin.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on login page&amp#27;[0m                               &amp#27;[90m# stepdefinitions.LoginStepDefinition.user_is_on_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"standard_user"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m"secret_sauce"&amp#27;[0m       &amp#27;[90m# stepdefinitions.LoginStepDefinition.user_enters_username_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClicks on Login Button&amp#27;[0m                                &amp#27;[90m# stepdefinitions.LoginStepDefinition.clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser is navigated to Home Page&amp#27;[0m                       &amp#27;[90m# stepdefinitions.LoginStepDefinition.user_is_navigated_to_home_page()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 14, 2024 10:35:01 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Check login with invalid username and valid password&quot;, &quot;Login Page Automation of saucedemo site&quot;](29)" classname="testrunner.MyTestRunner" time="4.437">
+    <system-out><![CDATA[
+Scenario: Check login with invalid username and valid password                                     &amp#27;[90m# src/test/resources/Features/UserLogin.feature:20&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on login page&amp#27;[0m                                                                      &amp#27;[90m# stepdefinitions.LoginStepDefinition.user_is_on_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"invalid_user"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m"secret_sauce"&amp#27;[0m                                               &amp#27;[90m# stepdefinitions.LoginStepDefinition.user_enters_username_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClicks on Login Button&amp#27;[0m                                                                       &amp#27;[90m# stepdefinitions.LoginStepDefinition.clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mAn error message is displayed &amp#27;[0m&amp#27;[32m&amp#27;[1m"Username and password do not match any user in this service"&amp#27;[0m &amp#27;[90m# stepdefinitions.LoginStepDefinition.an_error_message_is_displayed(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 14, 2024 10:35:04 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Check login with valid username and invalid password&quot;, &quot;Login Page Automation of saucedemo site&quot;](30)" classname="testrunner.MyTestRunner" time="2.633">
+    <system-out><![CDATA[
+Scenario: Check login with valid username and invalid password                                     &amp#27;[90m# src/test/resources/Features/UserLogin.feature:30&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on login page&amp#27;[0m                                                                      &amp#27;[90m# stepdefinitions.LoginStepDefinition.user_is_on_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"standard_user"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m"invalid_pass"&amp#27;[0m                                              &amp#27;[90m# stepdefinitions.LoginStepDefinition.user_enters_username_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClicks on Login Button&amp#27;[0m                                                                       &amp#27;[90m# stepdefinitions.LoginStepDefinition.clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mAn error message is displayed &amp#27;[0m&amp#27;[32m&amp#27;[1m"Username and password do not match any user in this service"&amp#27;[0m &amp#27;[90m# stepdefinitions.LoginStepDefinition.an_error_message_is_displayed(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 14, 2024 10:35:09 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Check login with empty username and valid password&quot;, &quot;Login Page Automation of saucedemo site&quot;](31)" classname="testrunner.MyTestRunner" time="3.524">
+    <system-out><![CDATA[
+Scenario: Check login with empty username and valid password &amp#27;[90m# src/test/resources/Features/UserLogin.feature:40&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on login page&amp#27;[0m                                &amp#27;[90m# stepdefinitions.LoginStepDefinition.user_is_on_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m"secret_sauce"&amp#27;[0m                     &amp#27;[90m# stepdefinitions.LoginStepDefinition.user_enters_username_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClicks on Login Button&amp#27;[0m                                 &amp#27;[90m# stepdefinitions.LoginStepDefinition.clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mAn error message is displayed &amp#27;[0m&amp#27;[32m&amp#27;[1m"Username is required"&amp#27;[0m  &amp#27;[90m# stepdefinitions.LoginStepDefinition.an_error_message_is_displayed(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 14, 2024 10:35:11 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Check login with valid username and empty password&quot;, &quot;Login Page Automation of saucedemo site&quot;](32)" classname="testrunner.MyTestRunner" time="2.514">
+    <system-out><![CDATA[
+Scenario: Check login with valid username and empty password &amp#27;[90m# src/test/resources/Features/UserLogin.feature:50&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on login page&amp#27;[0m                                &amp#27;[90m# stepdefinitions.LoginStepDefinition.user_is_on_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m"standard_user"&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m                    &amp#27;[90m# stepdefinitions.LoginStepDefinition.user_enters_username_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClicks on Login Button&amp#27;[0m                                 &amp#27;[90m# stepdefinitions.LoginStepDefinition.clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mAn error message is displayed &amp#27;[0m&amp#27;[32m&amp#27;[1m"Password is required"&amp#27;[0m  &amp#27;[90m# stepdefinitions.LoginStepDefinition.an_error_message_is_displayed(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 14, 2024 10:35:15 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Check login with empty username and password&quot;, &quot;Login Page Automation of saucedemo site&quot;](33)" classname="testrunner.MyTestRunner" time="2.227">
+    <system-out><![CDATA[
+Scenario: Check login with empty username and password      &amp#27;[90m# src/test/resources/Features/UserLogin.feature:60&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on login page&amp#27;[0m                               &amp#27;[90m# stepdefinitions.LoginStepDefinition.user_is_on_login_page()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enters &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m""&amp#27;[0m                                &amp#27;[90m# stepdefinitions.LoginStepDefinition.user_enters_username_and_password(java.lang.String,java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClicks on Login Button&amp#27;[0m                                &amp#27;[90m# stepdefinitions.LoginStepDefinition.clicks_on_login_button()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mAn error message is displayed &amp#27;[0m&amp#27;[32m&amp#27;[1m"Username is required"&amp#27;[0m &amp#27;[90m# stepdefinitions.LoginStepDefinition.an_error_message_is_displayed(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Nov 14, 2024 10:35:17 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+</testsuite>
